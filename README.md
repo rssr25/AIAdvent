@@ -1,8 +1,5 @@
 # AIAdvent
 
-Certainly! Here is a single `README.md` file content that you can copy and paste directly:
-
-```markdown
 # AI Advent - Frontend
 
 Welcome to the AI Advent Frontend! This React application is designed to provide an engaging and interactive user interface for the AI Advent project.
@@ -24,30 +21,6 @@ Before you begin, ensure you have met the following requirements:
 
 - **Node.js and npm**: [Download and install Node.js](https://nodejs.org/) (which includes npm).
 - **Git**: [Download and install Git](https://git-scm.com/).
-
-## Project Structure
-
-Here's an overview of the project structure:
-
-```
-ai-advent/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-│
-├── .gitignore
-├── package.json
-└── README.md
-```
 
 ## Installation
 
