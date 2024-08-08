@@ -1,0 +1,42 @@
+/* .hero {
+    background-image: url('https://example.com/hero-image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  } */
+  
+  .hero .display-3 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .lead {
+    font-size: 1.5rem;
+  }
+
+  .Modal .Form .submitButton{
+    background-color:#33CCCC; 
+    border: none
+  }
+  /* Hero.css */
+
+/* Adjust modal size and style */
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Customize form elements */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button.btn-primary {
+  width: 100%;
+  padding: 10px;
+}

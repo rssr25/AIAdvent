@@ -1,0 +1,26 @@
+.navbar {
+padding-left: 30px;
+
+}
+
+.navbar .navbar-links-formatting{
+  font-family: "Happy Monkey", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-size: large;
+  color: black;
+  display: flex; /* Ensures proper alignment and spacing */
+  justify-content: flex-end; /* Aligns links to the right */
+  margin-left: 5%;
+}
+
+.navbar .navbar-links-formatting .navbar-link-spacing {
+    margin-right: 35px; /* Adjust the margin as needed */
+    font-size: 21px;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-links-formatting .navbar-link-spacing:hover {
+    color: #33CCCC; /* Color change on hover */
+  }
+  

@@ -1,0 +1,70 @@
+/* Base styles for each section */
+.section {
+    min-height: 52vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    opacity: 0;  /* Initially hidden */
+    transform: translateY(50px);  /* Initial position */
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+  }
+  
+  .section.visible {
+    opacity: 1;  /* Fully visible */
+    transform: translateY(0);  /* Move to original position */
+  }
+  
+  /* Custom styles for each parallax section */
+  .section1-parallax {
+    position: relative;  /* Ensure the container is positioned relative to allow absolute positioning of the overlay */
+    background-image: url('../assets/images/ai-robot-cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .section2-parallax {
+    background-image: url('../assets/images/neural-circuit.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  } 
+  .section3-parallax {
+    background-image: url('../assets/images/neural-circuit.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section1-parallax::before {
+    content: ""; /* Pseudo-element requires a content attribute */
+    position: absolute; /* Position it absolutely within the parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.702); /* White color overlay with 60% opacity */
+    z-index: 1; /* Ensure the overlay is above the background but below any other content */
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+  }
+
+  .sectionFormatting{
+    padding-top: 6%;
+    padding-bottom: 25px;
+  }
+
+  .section-content {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .section-content.visible {
+    opacity: 1;
+    transform: translateY(2);
+  }
+  
