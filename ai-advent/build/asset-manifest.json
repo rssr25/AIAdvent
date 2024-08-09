@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.230dfe0a.css",
+    "main.js": "/static/js/main.28a83743.js",
+    "static/js/453.56bc2a44.chunk.js": "/static/js/453.56bc2a44.chunk.js",
+    "static/media/artificial-intelligence.gif": "/static/media/artificial-intelligence.b94254c6bc24a661657d.gif",
+    "static/media/ai-advent-cover-image.jpg": "/static/media/ai-advent-cover-image.9eb08c0d7bb608b56083.jpg",
+    "static/media/ai-robot-cover.jpg": "/static/media/ai-robot-cover.205171d83447fdb24132.jpg",
+    "static/media/neural-circuit.jpeg": "/static/media/neural-circuit.f8edb1566427dfd3369a.jpeg",
+    "static/media/director_pic.jpeg": "/static/media/director_pic.6186de894fb3d71b6938.jpeg",
+    "static/media/children_laughing.jpeg": "/static/media/children_laughing.293a6e61b8af67dcf090.jpeg",
+    "static/media/children_studying.jpeg": "/static/media/children_studying.cc8fb19f014b5c1aeb3a.jpeg",
+    "static/media/child_studying_AI.jpeg": "/static/media/child_studying_AI.9042e3508669a30ed05f.jpeg",
+    "static/media/saarland_university_logo.jpeg": "/static/media/saarland_university_logo.6e4852d30d7801bde4f0.jpeg",
+    "index.html": "/index.html",
+    "main.230dfe0a.css.map": "/static/css/main.230dfe0a.css.map",
+    "main.28a83743.js.map": "/static/js/main.28a83743.js.map",
+    "453.56bc2a44.chunk.js.map": "/static/js/453.56bc2a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.230dfe0a.css",
+    "static/js/main.28a83743.js"
+  ]
+}
